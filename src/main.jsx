@@ -4,7 +4,9 @@ import "./index.css";
 import { BrowserRouter } from "react-router-dom";
 import Greeting from "/components/greeting";
 import Hero from "/components/hero";
-import NavBar from "/components/navibar";
+import Start from "/components/startcontent";
+import FeldGrau from "/components/feldgrau";
+import NavBar2 from "/components/navibar2";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -12,7 +14,9 @@ ReactDOM.render(
       <div>
         <Greeting />
         <Hero />
-        <NavBar />
+        <Start />
+        <FeldGrau />
+        <NavBar2 />
       </div>
     </BrowserRouter>
   </React.StrictMode>,

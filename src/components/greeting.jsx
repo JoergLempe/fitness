@@ -1,11 +1,7 @@
 import React from "react";
 
 function Greeting() {
-  return (
-    <div>
-      <h1> Hi Jørg!</h1>
-    </div>
-  );
+  return <div className="text-4xl mt-4 ml-4 mb-6 font-bold">Hallooo Jørg!</div>;
 }
 
 export default Greeting;
