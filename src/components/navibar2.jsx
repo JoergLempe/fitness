@@ -17,7 +17,7 @@ const NavBar2 = () => {
     <nav className="bg-black p-4 fixed bottom-0 w-full rounded-lg flex justify-between items-center">
       <div className="flex justify-between w-full">
         <div className="flex justify-center w-1/4">
-          <NavLink to="./main.jsx">
+          <NavLink to="/">
             <img
               src={isHomeActive ? homew : homeg}
               alt="Home"
@@ -26,7 +26,7 @@ const NavBar2 = () => {
           </NavLink>
         </div>
         <div className="flex justify-center w-1/4">
-          <NavLink to="/pages/work.jsx">
+          <NavLink to="/work">
             <img
               src={isWorkActive ? barw : barg}
               alt="Home"
@@ -35,7 +35,7 @@ const NavBar2 = () => {
           </NavLink>
         </div>
         <div className="flex justify-center w-1/4">
-          <NavLink to="/pages/profile.jsx">
+          <NavLink to="/profile">
             <img
               src={isProfileActive ? profw : profg}
               alt="Home"
